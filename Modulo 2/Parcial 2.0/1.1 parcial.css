@@ -1,0 +1,32 @@
+body {
+    background-color: #d8d5db;
+}
+.centrado {
+    text-align: center;
+} 
+.imagen1 {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+        
+}
+.titulo{
+    text-align: center;
+}
+.link a:hover{
+    text-align: center;
+    background-color: var(---primario);
+    color: var(--oscuro);
+}
+.texto1{
+    text-align: center;
+}
+.navegacion {
+    display: flex;
+    background-color: #eae8ff ;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}

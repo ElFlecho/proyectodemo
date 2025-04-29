@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    font-size: 16px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.navegacion-bg {
+    background-color: gray;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion a{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navegacion a:hover {
+    background-color: white;
+    color: black;
+}
+
+span {
+    text-align: center;
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+}

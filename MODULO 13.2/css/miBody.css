@@ -1,0 +1,75 @@
+/* CSS para el body */
+
+h1 {
+    font-size: 4em;
+}
+
+.container1 {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 0 10px;
+}
+
+.encabezado {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.columns {
+    flex: 0 0 calc(25% - 15px); /* Ajuste para cuatro columnas por fila con margen entre ellas */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #c71818;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%; 
+    max-width: 1000px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info-card {
+    padding: 10px;
+}
+
+.info-card h4 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.info-card .precio {
+    font-size: 16px;
+    color: #333;
+}
+
+.info-card a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.info-card a:hover {
+    background-color: #0056b3;
+}

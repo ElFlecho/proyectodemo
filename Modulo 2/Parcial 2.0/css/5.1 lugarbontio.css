@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.navegacion-bg {
+    background-color: gray;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion a {
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navegacion a:hover {
+    background-color: white;
+    color: black;
+}
+
+span {
+    text-align: center;
+}
+
+.imagen1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
+.imagen2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
+
+.imagen3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
+.imagenes {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    width: -1rem;
+    margin: auto;
+    background-color: white;
+}

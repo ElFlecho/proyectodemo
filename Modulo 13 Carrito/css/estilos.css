@@ -1,0 +1,167 @@
+
+body, h1, ul, table {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-collapse: collapse;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    max-height: 50px;
+}
+
+
+.two.columns {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#carrito {
+    background-color: #000000;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 400px;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+#carrito table {
+    width: 100%;
+}
+
+#carrito th, #carrito td {
+    padding: 5px;
+    text-align: left;
+}
+
+#carrito img {
+    max-height: 50px;
+}
+
+.submenu:hover #carrito {
+    display: block;
+}
+
+
+#lista-productos {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 15px; 
+}
+
+.four.columns {
+    width: calc(25% - 20px); 
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+}
+
+
+.encabezado {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.four.columns img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.info-card {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-card h4 {
+    margin: 10px 0;
+}
+
+.info-card .precio {
+    color: #b12704;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.agregar-carrito {
+    display: block;
+    width: 100%;
+    padding: 2px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.agregar-carrito:hover {
+    background-color: #0056b3;
+}
+
+
+#lista-carrito {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#lista-carrito th,
+#lista-carrito td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
